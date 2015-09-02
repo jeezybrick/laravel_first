@@ -1,0 +1,84 @@
+
+.contact_top .dropdown:hover > .dropdown-menu { 
+    display: block; 
+} 
+body {
+    overflow-y: scroll;
+}
+
+.image_top {
+    padding-top: 5px;
+}
+
+.button_log_head {
+    margin-top: 10px;
+}
+
+.top_name {
+    position: relative;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    padding-left: 65px;
+    color: #d90b0b !important;
+    font-family: Arial, "Palatino Linotype", Georgia, "Times New Roman", Times, serif;
+    font-size: 36px;
+    font-style: normal;
+    text-decoration: none;
+    white-space: nowrap;
+    right: 50px;
+}
+.top_name a {
+    color: #d90b0b !important;
+}
+
+.contact_top {
+    font-size: 14px;
+    margin-top: 20px;
+    text-align: right;
+    padding-right: 50px;
+    z-index: 1;
+    line-height: 6.5px;
+}
+
+.contact_top a:link {
+    color: dodgerblue;
+}
+
+.contact_top a:visited {
+    color: dodgerblue;
+}
+
+.contact_top a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+a.email:hover {
+    color: brown;
+}
+
+.starrequired {
+    color: #d04b4b;
+}
+
+.footer {
+    border-top: 1px dotted #9cafc4;
+    color: #6986a5;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin: 20px auto 0;
+    padding: 25px;
+    position: relative;
+    text-align: center;
+}
+
+.divider {
+    height: 1px;
+    width: 100%;
+    display: block;
+    /* for use on default inline elements like span */
+    
+    margin: 9px 0;
+    overflow: hidden;
+    background-color: #e5e5e5;
+}
